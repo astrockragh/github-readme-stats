@@ -44,7 +44,7 @@ function calculateRank({
   stars,
   followers,
 }) {
-  const COMMITS_MEDIAN = all_commits ? 500 : 125,
+  const COMMITS_MEDIAN = all_commits ? 200 : 75,
     COMMITS_WEIGHT = 5;
   const PRS_MEDIAN = 25,
     PRS_WEIGHT = 2;
